@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    font-family: 'Montserrat';
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+
+header {
+    color: black;
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+#first_line {
+    top: 0px;
+}
+
+#logo {
+    width: 40%;
+    height: 100px;
+    background-color: white;
+    float: left;
+    display: table;
+}
+
+#logo_init {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#logo_text {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#menu {
+    width: 60%;
+    height: 100px;
+    background-color: white;
+    float: left;
+    display: table;
+    text-align: center;
+    word-break: break-all;
+    font-weight: 900;
+}
+
+.menu_title {
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+#second_line {
+    clear: both;
+    height: 50px;
+    background-color: white;
+    opacity: 1;
+    transition: all .2s ease-out;
+    padding-right: 20px;
+}
+
+#links {
+    float: right;
+    display: table;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.menu_s1,
+.menu_s2,
+.menu_s3 {
+    display: none;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0px 10px 0px 10px;
+}
+
+#first_links,
+#second_links {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#container {
+    margin: 0px;
+    padding: 0px;
+    background-color: cornsilk;
+    clear: both;
+}
+
+#info {
+    padding: 20px 30px 20px 30px;
+    background-color: lightgray;
+    display: table;
+}
+
+#logo_info {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#logo_info_img {
+    border-radius: 100px;
+    border: none;
+    height: 150px;
+    width: 150px;
+}
+
+#info_text_init {
+    padding-left: 60px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#info_text {
+    font-size: 20px;
+}
+
+#line1_text {
+    padding: 20px 30px 20px 30px;
+    display: table;
+}
+
+#line1_text_1,
+#line1_text_2,
+#line1_text_3 {
+    width: 30%;
+    display: table-cell;
+    padding: 0px 10px 0px 10px;
+}
+
+#line1_text_img {
+    padding: 0px 10px 0px 10px;
+    display: table;
+}
+
+#line1_img {
+    width: 300px;
+    height: 300px;
+}
+
+#line1_img_init {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+line1_text_init {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px;
+}
