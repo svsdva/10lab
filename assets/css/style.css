@@ -72,6 +72,7 @@ header {
     opacity: 1;
     transition: all .2s ease-out;
     padding-right: 20px;
+    visibility: hidden;
 }
 
 #links {
