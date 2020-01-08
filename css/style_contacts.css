@@ -116,108 +116,35 @@ header {
     clear: both;
 }
 
-#info {
-    padding: 20px 30px 20px 35px;
+#title {
+    font-size: 40px;
+    text-align: center;
     background-color: #363B40;
-    display: table;
-}
-
-#logo_info {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
-#logo_info_img {
-    border-radius: 100px;
-    border: none;
-    height: 150px;
-    width: 150px;
-}
-
-#info_text_init {
-    padding-left: 60px;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-
-#info_text {
-    font-size: 20px;
-    color: #FDFDFD;
-}
-
-#line1_text {
-    padding: 0px;
-    display: table;
-}
-
-#line1_text_1,
-#line1_text_2,
-#line1_text_3 {
-    width: 30%;
-    display: table-cell;
-    padding: 10px 20px 10px 20px;
     color: white;
+    padding: 15px 0px 15px 0px;
+    margin: 0px;
+    display: block;
 }
 
-#line1_text_1 {
-    background-color: #75420D;
+.text {
+    padding: 0px 0px 0px 80px;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    color: black;
 }
 
-#line1_text_2 {
-    background-color: #5E6D6A;
-}
-
-#line1_text_3 {
-    background-color: #19212C;
-}
-
-#line1_text_1_ul {
-    margin-left: -15px;
-    margin-top: 10px;
-}
-
-#line1_text_img {
-    padding: 0px 10px 0px 10px;
-    display: table;
-}
-
-#line1_img {
-    width: 150px;
-    height: 150px;
-}
-
-#line1_img_init {
-    display: table-cell;
-    vertical-align: middle;
-    padding: 10px;
-}
-
-#line1_text_init {
-    padding: 20px 25px 20px 25px;
-    text-indent: 25px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: justify;
-}
-
-#footer_name {
-    font-size: 20px;
+#title2 {
+    font-size: 30px;
     text-align: center;
+    color: black;
+    padding: 15px 0px 15px 0px;
+    margin: 0px;
+    display: block;
 }
 
-#partners {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-
-}
-
-.partners_logo {
-    height: 40px;
-    width: 165px;
-    margin: 10px;
+#map {
+    margin-left: 35%;
+    padding-bottom: 40px;
 }
 
 footer {
